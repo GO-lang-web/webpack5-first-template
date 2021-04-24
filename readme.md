@@ -167,3 +167,7 @@ Now you can publish it as an npm package and find it at unpkg.com to distribute 
 - errors : 403 Forbidden - PUT https://registry.npmjs.org/alexgy1-first-npm-package - Forbidden
 
 - If you are a new user, please confirm your account first! done
+
+## useful articles
+
+- [publish-to-npm](https://zellwk.com/blog/publish-to-npm/)
