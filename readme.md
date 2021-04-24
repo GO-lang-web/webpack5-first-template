@@ -189,6 +189,8 @@ Now you can publish it as an npm package and find it at unpkg.com to distribute 
 
 - If you are a new user, please confirm your account first! done
 
+- [self is not defined](https://stackoverflow.com/questions/64639839/typescript-webpack-library-generates-referenceerror-self-is-not-defined)
+
 ## useful articles
 
 - [publish-to-npm](https://zellwk.com/blog/publish-to-npm/)

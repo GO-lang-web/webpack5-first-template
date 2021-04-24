@@ -5,6 +5,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "webpack-numbers.js",
+    globalObject: "this",
     clean: true,
     library: {
       name: "webpackNumbers",
