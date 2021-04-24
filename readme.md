@@ -24,7 +24,28 @@ We install lodash as devDependencies instead of dependencies because we don't wa
 webpack.config.js
 
 ```js
+const path = require("path");
 
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: "webpack-numbers.js",
+    clean: true,
+    library: {
+      name: "webpackNumbers",
+      type: "umd",
+    },
+  },
+  externals: {
+    lodash: {
+      commonjs: "lodash",
+      commonjs2: "lodash",
+      amd: "lodash",
+      root: "_",
+    },
+  },
+};
 ```
 
 It should be familiar have you used webpack to bundle your application. Basically, we're telling webpack to bundle src/index.js into dist/webpack-numbers.js.
@@ -171,3 +192,4 @@ Now you can publish it as an npm package and find it at unpkg.com to distribute 
 ## useful articles
 
 - [publish-to-npm](https://zellwk.com/blog/publish-to-npm/)
+- [author-libraries](https://webpack.js.org/guides/author-libraries/)
