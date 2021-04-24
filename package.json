@@ -1,6 +1,6 @@
 {
   "name": "alexgy1-first-npm-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/webpack-numbers.js",
   "scripts": {
