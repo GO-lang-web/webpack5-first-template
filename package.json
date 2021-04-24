@@ -1,0 +1,17 @@
+{
+  "name": "alexgy1-first-npm-package",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/webpack-numbers.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "alexgy1",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
